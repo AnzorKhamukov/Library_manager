@@ -37,7 +37,9 @@ pip install -r requirements.txt
 
 python
 >>> from app.models import *
+
 >>> Base.metadata.create_all(engine)
+
 ### Запустите приложение:
 
 python main.py
